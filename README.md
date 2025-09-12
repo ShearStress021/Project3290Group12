@@ -34,7 +34,7 @@ To switch to a specific branch in the repository, follow these steps:
     ```
      &emsp; or
      ```bash
-     .\env\Scripts\Activate.ps1
+     .\env\Scripts\Activate
      ```
 4. **Install the necessary packages.**
     ```bash
