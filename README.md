@@ -45,14 +45,14 @@ To switch to a specific branch in the repository, follow these steps:
     ```bash
    git checkout -b <branch-name/feature-name>
    ```
-6. **Pull Latest Changes from Master**
-   - Fetch the latest updates from the `Master` branch:
+6. **Pull Latest Changes from Main**
+   - Fetch the latest updates from the `Main` branch:
      ```bash
-     git fetch origin Master
+     git fetch origin main
      ```
-   - Merge the latest changes from `Master` into your branch:
+   - Merge the latest changes from `Main` into your branch:
      ```bash
-     git merge origin/Master
+     git merge origin/main
      ```
 7. **Resolve Any Conflicts**
    - If there are any merge conflicts, resolve them in your local environment and commit the changes.
