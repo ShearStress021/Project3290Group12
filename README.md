@@ -60,7 +60,7 @@ To switch to a specific branch in the repository, follow these steps:
 8. **Push Updated Branch**
    - After ensuring everything is working, push your updated branch:
      ```bash
-     git push origin <ranch-name/feature-name>
+     git push origin <branch-name/feature-name>
      ```
 ### Additional Tips
 - Regularly check for updates in the `main` branch and repeat the steps above if there are any new changes.
