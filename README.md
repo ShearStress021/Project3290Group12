@@ -3,7 +3,7 @@ Fundamental of Machine Learning
 
 
 
-## How to Access Project and Work on The Project
+## How to Access Project
 
 To switch to a specific branch in the repository, follow these steps:
 
@@ -35,17 +35,31 @@ To switch to a specific branch in the repository, follow these steps:
      &emsp; or
      ```bash
      .\env\Scripts\Activate
+
      ```
-4. **Install the necessary packages.**
+4. **Link env to ipykernel**
+    ```bash
+     python3 -m ipykernel install --user --name=env
+
+     ```
+5. **Install the necessary packages.**
     ```bash
     pip install -r requirements.txt
     ```
 
-5. **Create a new Branch and switch to the branch**
+6. **Open jupyter notebook**
+   ```bash
+   jupyter notebook
+   ```
+
+## Working on the project
+
+
+1. **Create a new Branch and switch to the branch**
     ```bash
    git checkout -b <branch-name/feature-name>
    ```
-6. **Pull Latest Changes from Main**
+2. **Pull Latest Changes from Main**
    - Fetch the latest updates from the `Main` branch:
      ```bash
      git fetch origin main
@@ -54,10 +68,10 @@ To switch to a specific branch in the repository, follow these steps:
      ```bash
      git merge origin/main
      ```
-7. **Resolve Any Conflicts**
+3. **Resolve Any Conflicts**
    - If there are any merge conflicts, resolve them in your local environment and commit the changes.
 
-8. **Push Updated Branch**
+3. **Push Updated Branch**
    - After ensuring everything is working, push your updated branch:
      ```bash
      git push origin <branch-name/feature-name>
