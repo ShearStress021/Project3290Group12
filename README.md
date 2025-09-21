@@ -55,11 +55,8 @@ To switch to a specific branch in the repository, follow these steps:
 ## Working on the project
 
 
-1. **Create a new Branch and switch to the branch**
-    ```bash
-   git checkout -b <branch-name/feature-name>
-   ```
-2. **Pull Latest Changes from Main**
+
+1. **Pull Latest Changes from Main**
    - Fetch the latest updates from the `Main` branch:
      ```bash
      git fetch origin main
@@ -68,6 +65,10 @@ To switch to a specific branch in the repository, follow these steps:
      ```bash
      git merge origin/main
      ```
+2. **Create a new Branch and switch to the branch**
+    ```bash
+   git checkout -b <branch-name/feature-name>
+   ```
 3. **Resolve Any Conflicts**
    - If there are any merge conflicts, resolve them in your local environment and commit the changes.
 
